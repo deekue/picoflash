@@ -3,6 +3,9 @@ shell script wrapper for upgrading the firmware on a [Picobrew Zymatic](http://p
 
 Tested on Ubuntu.  Should work on most Unix-like systems.
 
+Will auto-detect Arduino tools on Ubuntu/Debian
+Will auto-detect TTY device on Linux
+
 ```
 Usage: picoflash.sh [options] <file>
 
